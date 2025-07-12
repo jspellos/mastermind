@@ -373,7 +373,7 @@
         .orange { background: radial-gradient(circle at 30% 30%, #ff922b, #ef6c00); }
         .purple { background: radial-gradient(circle at 30% 30%, #b197fc, #6a1b9a); }
         .pink { background: radial-gradient(circle at 30% 30%, #f783ac, #c2185b); }
-        .cyan { background: radial-gradient(circle at 30% 30%, #3bc9db, #0097a7); }
+        .brown { background: radial-gradient(circle at 30% 30%, #8d6e63, #5d4037); }
 
         /* Mobile Responsiveness */
         @media (max-width: 480px) {
@@ -435,7 +435,7 @@
             <div class="color-peg orange" data-color="orange" title="Orange"></div>
             <div class="color-peg purple" data-color="purple" title="Purple"></div>
             <div class="color-peg pink" data-color="pink" title="Pink"></div>
-            <div class="color-peg cyan" data-color="cyan" title="Cyan"></div>
+            <div class="color-peg brown" data-color="brown" title="Brown"></div>
         </div>
 
         <div class="controls">
@@ -465,7 +465,7 @@
             background_color: "#8B4513",
             icons: [
                 {
-                    src: "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTI4IiBoZWlnaHQ9IjEyOCIgdmlld0JveD0iMCAwIDEyOCAyODgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGNpcmNsZSBjeD0iNjQiIGN5PSI2NCIgcj0iNDIiIGZpbGw9IiNGRkQ2NDUiLz48Y2lyY2xlIGN4PSI2NCIgY3k9IjY0IiByPSIzMCIgZmlsbD0iI2NmNDAxNCIvPjwvZGVmcz48L3N2Zz4=",
+                    src: "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTI4IiBoZWlnaHQ9IjEyOCIgdmlld0JveD0iMCAwIDEyOCAxMjgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJhIiB4MT0iMCIgeTE9IjAiIHgyPSIxIiB5Mj0iMSI+PHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjOEI0NTEzIi8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjQTA1MjJEIi8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3Qgd2lkdGg9IjEyOCIgaGVpZ2h0PSIxMjgiIGZpbGw9InVybCgjYSkiIHJ4PSIyMCIvPjxjaXJjbGUgY3g9IjMyIiBjeT0iMzIiIHI9IjEyIiBmaWxsPSIjZmY0NDQ0Ii8+PGNpcmNsZSBjeD0iNjQiIGN5PSIzMiIgcj0iMTIiIGZpbGw9IiM0ZGFiZjciLz48Y2lyY2xlIGN4PSI5NiIgY3k9IjMyIiByPSIxMiIgZmlsbD0iIzUxY2Y2NiIvPjxjaXJjbGUgY3g9IjMyIiBjeT0iNjQiIHI9IjEyIiBmaWxsPSIjZmZkNDNiIi8+PGNpcmNsZSBjeD0iNjQiIGN5PSI2NCIgcj0iMTIiIGZpbGw9IiNmZjkyMmIiLz48Y2lyY2xlIGN4PSI5NiIgY3k9IjY0IiByPSIxMiIgZmlsbD0iI2IxOTdmYyIvPjxjaXJjbGUgY3g9IjMyIiBjeT0iOTYiIHI9IjEyIiBmaWxsPSIjZjc4M2FjIi8+PGNpcmNsZSBjeD0iNjQiIGN5PSI5NiIgcj0iMTIiIGZpbGw9IiMzYmM5ZGIiLz48Y2lyY2xlIGN4PSI5NiIgY3k9Ijk2IiByPSIxMiIgZmlsbD0iI0ZGRDcwMCIvPjx0ZXh0IHg9IjY0IiB5PSIxMTgiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiNGRkQ3MDAiIGZvbnQtc2l6ZT0iMTQiIGZvbnQtd2VpZ2h0PSJib2xkIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiPk1BU1RFUk1JTkQ8L3RleHQ+PC9zdmc+",
                     sizes: "128x128",
                     type: "image/svg+xml"
                 }
@@ -493,7 +493,7 @@
         // Rest of your game code (same as before)
         class MastermindGame {
             constructor() {
-                this.colors = ['red', 'blue', 'green', 'yellow', 'orange', 'purple', 'pink', 'cyan'];
+                this.colors = ['red', 'blue', 'green', 'yellow', 'orange', 'purple', 'pink', 'brown'];
                 this.secretCode = [];
                 this.currentGuess = [null, null, null, null];
                 this.selectedColor = null;
