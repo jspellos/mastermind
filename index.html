@@ -112,8 +112,8 @@
         }
 
         .color-peg {
-            width: 35px;
-            height: 35px;
+            width: 40px;
+            height: 40px;
             border-radius: 50%;
             border: 3px solid #333;
             cursor: pointer;
@@ -258,8 +258,8 @@
         }
 
         .peg-hole {
-            width: 28px;
-            height: 28px;
+            width: 32px;
+            height: 32px;
             border-radius: 50%;
             border: 2px solid #654321;
             background: radial-gradient(circle at 30% 30%, #2F1B14, #000);
@@ -356,8 +356,8 @@
         }
 
         .secret-peg {
-            width: 35px;
-            height: 35px;
+            width: 40px;
+            height: 40px;
             border-radius: 50%;
             border: 3px solid #333;
             box-shadow: 
@@ -387,13 +387,13 @@
             }
             
             .peg-hole {
-                width: 25px;
-                height: 25px;
+                width: 28px;
+                height: 28px;
             }
             
             .color-peg {
-                width: 30px;
-                height: 30px;
+                width: 35px;
+                height: 35px;
             }
             
             .btn {
@@ -423,7 +423,7 @@
         </div>
 
         <div class="game-info">
-            <div>Turn: <span id="currentTurn">1</span> / 15</div>
+            <div>Turn: <span id="currentTurn">1</span> / 10</div>
             <div>Break the Secret Code!</div>
         </div>
 
@@ -498,7 +498,7 @@
                 this.currentGuess = [null, null, null, null];
                 this.selectedColor = null;
                 this.currentTurn = 1;
-                this.maxTurns = 15;
+                this.maxTurns = 10;
                 this.gameOver = false;
                 this.guessHistory = [];
                 
@@ -793,3 +793,4 @@
     </script>
 </body>
 </html>
+
